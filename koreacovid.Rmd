@@ -40,17 +40,29 @@ with(kRdata, table(Sex, result))
 
 ```{r}
 barchartGC(~result + Sex,data=kRdata, main ="Frequency Bar Chart")
+
 ```
 
   
 ### this bar chart is displaying in total frequency terms our data.  Clearly there are a lot less dead people than alive people as is reflected by the sizes of the bars in the display.  
+ 
+```{r}
+barchartGC(~result + Sex,data=kRdata, type="percent", main ="Frequency Bar Chart")
+```
+ 
   
 of the people alive 56% are female and 44% are males. Males are dying more often then the females. 
+    
+of those dead 36% are female and 64% are males. Females are outliving males during this pandemic. 
   
-
-
   
 ## Numerical results
+
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
 
 
 ## Inferential results 
