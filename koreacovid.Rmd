@@ -67,8 +67,13 @@ colPerc(table1)
 
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
-
+Inferential results conclude the p-value=0.001 and ratio 2.3 to 1. Out of 2.3 men die as 2.3 of women die so the ratio is 2.3 to 1, so more likely 3 to 1. 
 
 ## Conclusions
 
