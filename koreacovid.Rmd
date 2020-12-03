@@ -75,5 +75,9 @@ fisher.test(table1)
 
 Inferential results conclude the p-value=0.001 and ratio 2.3 to 1. Out of 2.3 men die as 2.3 of women die so the ratio is 2.3 to 1, so more likely 3 to 1. 
 
+
+
 ## Conclusions
+    
+In conclusion from the charts and results more women are alive and more men are dead. The odds ratio is 2.3 to 1 means that a man is 2.3 dies 2.3 as often as a women does. In these results from south korea from May it has established that men are dying faster then woman. No one knows why the men are dying faster then woman but once they study the disease more we can find out more on statistics. So the odds of males dying is greater then woman. 
 
