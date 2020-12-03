@@ -1,7 +1,7 @@
 ---
 title: "covid 19"
-author: "Dr K"
-date: "5/2/2020"
+author: "Jeanette Serrano"
+date: "12/2/2020"
 output:
   html_document: default
   pdf_document: default
@@ -44,9 +44,9 @@ barchartGC(~result + Sex,data=kRdata, main ="Frequency Bar Chart")
 
   
 ### this bar chart is displaying in total frequency terms our data.  Clearly there are a lot less dead people than alive people as is reflected by the sizes of the bars in the display.  
-
-
-
+  
+of the people alive 56% are female and 44% are males. Males are dying more often then the females. 
+  
 
 
   
